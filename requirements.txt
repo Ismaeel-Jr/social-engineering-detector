@@ -1,0 +1,12 @@
+## Core Dependencies (all built-in Python — no installation needed)
+# re (built-in)
+# json (built-in)
+# datetime (built-in)
+
+## Optional — for advanced NLP features (future versions)
+# scikit-learn>=1.0.0
+# nltk>=3.7
+# transformers>=4.20.0
+# torch>=1.12.0
+# pandas>=1.4.0
+# numpy>=1.22.0
