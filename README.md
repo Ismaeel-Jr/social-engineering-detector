@@ -64,10 +64,10 @@ No installation required. Pure Python — zero dependencies.
 
 ### Basic Analysis
 ```python
-from src.detector import analyze_text, print_report
+from src. detector import analyze_text, print_report
 
-text = """URGENT: Your account has been compromised. 
-Click here immediately to verify your password 
+text = ""URGENT: Your account has been compromised. 
+Click here immediately to verify your password, 
 or your account will be suspended within 24 hours."""
 
 report = analyze_text(text)
@@ -80,9 +80,9 @@ print_report(report)
    SOCIAL ENGINEERING DETECTION REPORT
    Built by Ismaeel Khan | Human-Centered Cybersecurity
 =================================================================
-  Risk Score   : 87.5%
-  Threat Level : CRITICAL — HIGH RISK ATTACK
-  SE Detected  : YES ⚠️
+  Risk Score  : 87.5%
+  Threat Level: CRITICAL — HIGH RISK ATTACK
+  SE Detected : YES ⚠️
 -----------------------------------------------------------------
   ATTACK PATTERNS DETECTED:
 
@@ -101,12 +101,12 @@ print_report(report)
 ```
 
 ### Batch Analysis
-```python
-from src.detector import analyze_batch
+``` python
+from src. detector import analyze_batch
 
 texts = [
-    "URGENT: Your account will be suspended. Click here now.",
-    "Hi, are we still meeting tomorrow at 3pm?",
+    "URGENT: Your account will be suspended. Click here now."
+    "Hi, are we still meeting tomorrow at 3 pm?"
     "Congratulations! You have won $1,000,000. Claim now!"
 ]
 
@@ -154,26 +154,10 @@ python tests/test_detector.py
 
 ---
 
-## 🎓 Academic Context
-
-This tool is part of ongoing research into:
-
-> *"Using AI and NLP to detect psychological manipulation patterns in cyber attacks and build human-centered defense systems."*
-
-Aligned with research by:
-- Prof. Daniela Oliveira (University of Florida) — social engineering psychology
-- Prof. Cleotilde Gonzalez (Carnegie Mellon) — cognitive modeling of cyber adversaries
-- Prof. Rahul Chatterjee (Univ. of Wisconsin) — victim-centered cybersecurity
-- IARPA ReSCIND Program — cyberpsychology-informed network defense
-
----
 
 ## 👤 Author
 
 **Ismaeel Khan**
-📧 edu.ismaeel@gmail.com
-🌍 Pakistan / Qatar
-🎓 BS Computer Science — University of the People (WASC Accredited)
 
 *"I do not see cybersecurity as a job — it is a calling, a mission to protect, empower, and transform the lives behind the screens."*
 
@@ -187,7 +171,7 @@ MIT License — Free to use, modify, and share for research and education.
 
 ## 🤝 Contributing
 
-Pull requests welcome. If you have experienced social engineering attacks and want to add patterns — please contribute. Your experience makes this tool stronger.
+Pull requests welcome. If you have experienced social engineering attacks and want to add patterns, please contribute. Your experience makes this tool stronger.
 
 ---
 
