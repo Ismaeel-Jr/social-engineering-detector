@@ -159,7 +159,7 @@ python tests/test_detector.py
 
 **Ismaeel Khan**
 
-*"I do not see cybersecurity as a job — it is a calling, a mission to protect, empower, and transform the lives behind the screens."*
+*"ISurvival is not just enduring the storm, but learning to dance with the chaos until the calm arrives. - Ismaeel"*
 
 ---
 
